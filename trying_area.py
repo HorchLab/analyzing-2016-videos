@@ -1,3 +1,10 @@
+## Author: Emma Gibbens
+## Last updated: July 12th, 2023
+## Association: Horch Lab, Bowdoin College
+## This file takes as input a video file and a csv file indicating the location of the light in pixels. It then
+## determines the RBG value for the area around that light pixel in each frame of the video, and returns two
+## csv files, one for each light. In the csv files each frame is a row, and the RGB values are columns
+
 import numpy as np
 import cv2 as cv
 import csv
