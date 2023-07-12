@@ -1,4 +1,9 @@
-library(ggplot2)
+## Author: Emma Gibbens
+## Last update: July 12th, 2023
+## Association: Horch Lab, Bowdoin College
+## This is an R script designed to take the output of the trying_area.py and produce two csv files (one for each light)
+## The csv files contain the frames in the videos during which the light is on (one column)
+
 
 ## need to change the input and output file names, and determine the best metric
 ## (R, B, or G) for each light (Red/Green), and input that as the final frames
