@@ -1,4 +1,8 @@
-library(ggplot2)
+## Author: Emma Gibbens
+## Last update: July 12th, 2023
+## Association: Horch Lab
+## This is an R script that takes two csv files which contain the average RGB value around two lights
+## in each frame of a video, and outputs two csv files which indicate in which frames the light is on.
 
 ## need to change the file names at the beginning and the output file names
 
