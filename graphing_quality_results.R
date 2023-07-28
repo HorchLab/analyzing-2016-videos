@@ -3,10 +3,6 @@
 ## Association: Horch Lab at Bowdoin College
 ## Purpose: This R script takes the data returned from the comparing_results 
 ## script and graphs it to demonstrate level of anticipated accuracy. 
-## Author: Emma Gibbens
-## Last updated: July 13th, 2023
-## Association: Horch Lab, Bowdoin College
-## Takes the data produced by the comparing_results.R
 ## It creates histograms of the percentages of frames that are consistent
 ## between the two methods (ImageJ and python) for each video and light
 
