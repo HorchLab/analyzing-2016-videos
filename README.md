@@ -6,5 +6,6 @@ The python script "area_av_RGB.py" is used to identify the color of the light fo
 
 ### R Scripts
 * The R script imageJ_method.R should be used to process the videos analyzed using the ImageJ method.  
-* The R Script python.meth.R should be used to process the videos analyzed using the Python method.  
+* The R Script python.meth.R should be used to process the videos analyzed using the Python method.
+* The R script comparing_results.R should be used to compare the frames derived from the ImageJ method and Python method to assess the quality of the of the frame extraction.
 * The R Script analyzing_all_turn_angles.R should be used to process the data file containing the turn angle and correct turn (t/f) in response to the stimuli for all of the crickets
