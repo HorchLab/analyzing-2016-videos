@@ -11,6 +11,7 @@ The python script "area_av_RGB.py" is used to identify the color of the light fo
 * master_light_analysis.R : sources the final_frame_decision.R and allows you to loop through all the videos you wish to through a single run of the code
 * comparing_results.R : should be used to compare the frames derived from the ImageJ method and Python method to assess the quality of the of the frame extraction.
 * graphing_quality_results.R : creates graphs using the data from the comparing_results.R
+* turn_angle_analysis.R : finds the turn angle of the cricket for every frame in each video. Stores the turn angle for each frame and whether or not the light is on in that frame in a single csv file.
 * master_angle_analysis.R : sources the the turn_angle_analysis.R script. takes everything in the directories that contain the DLC output files and the frame files (when the light is on) and run the turn angle analysis for each video
 * graphing_turn_angle.R : produces graphs with the turn angle of the cricket for every frame, from csv files that contain the turn angle of the cricket for every frame, and stores in a PDF
 * grouping_turn_angle.R : This script takes a csv file containing the turn angle for the cricket in each frame and the frames in which the light is on, and computes the degree the cricket turned in response to the stimulus, and whether or not the cricket turned correctly in response to the stimulus
