@@ -14,4 +14,5 @@ The python script "area_av_RGB.py" is used to identify the color of the light fo
 * master_angle_analysis.R : sources the the turn_angle_analysis.R script. takes everything in the directories that contain the DLC output files and the frame files (when the light is on) and run the turn angle analysis for each video
 * graphing_turn_angle.R : produces graphs with the turn angle of the cricket for every frame, from csv files that contain the turn angle of the cricket for every frame, and stores in a PDF
 * grouping_turn_angle.R : This script takes a csv file containing the turn angle for the cricket in each frame and the frames in which the light is on, and computes the degree the cricket turned in response to the stimulus, and whether or not the cricket turned correctly in response to the stimulus
+* master_grouping_angle.R : sourcing the grouping_turn_angle.R for the data from each of the crickets
 * analyzing_all_turn_angles.R : should be used to process the data file containing the turn angle and correct turn (t/f) in response to the stimuli for all of the crickets
