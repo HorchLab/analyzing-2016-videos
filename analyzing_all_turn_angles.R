@@ -2,7 +2,7 @@
 ## Last updated: July 27, 2023
 ## Association: Horch Lab, Bowdoin College
 ## this script is for analyzing all the data from a csv file that contains the 
-## turn angle and the correct turn (t/f). It attempts to analyze the data and 
+## turn angle and the correct turn (t/f) for each of the crickets. It attempts to analyze the data and 
 ## graph the data using ggplot
 
 library(ggplot2)
